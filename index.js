@@ -20,5 +20,5 @@ connect(DB).then(() => {
   });
  
 app.listen(9000, () => {
-  console.log("ready @ 9999");
+  console.log("ready @ 9000");
 });
