@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.io/Parag-47/emp-management-api",
   "name": "server",
   "version": "1.0.0",
   "author": "Parag",
@@ -8,8 +7,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "predeploy": "npm i",
-    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
