@@ -1,10 +1,10 @@
 {
+  "homepage": "https://github.io/Parag-47/emp-management-api",
   "name": "server",
   "version": "1.0.0",
   "author": "Parag",
   "license": "ISC",
   "description": "",
-  "homepage": "https://github.io/Parag-47/emp-management-api",
   "main": "index.js",
   "type": "module",
   "scripts": {
