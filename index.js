@@ -9,11 +9,10 @@ app.use(json());
 app.use("/images",express.static('./images'));
 app.use("/", routes);
 
-const DB =
-"mongodb+srv://paragyadav74:qdmec0pETyJaYrJz@cluster0.mtdcup9.mongodb.net/emp_db";
+const DB = process.env.MONGODB_URI;
 
 connect(DB).then(() => {
-    console.log("Conection Successful");
+    console.log("Connection Successful");
   })
   .catch((error) => {
     console.log(error);
